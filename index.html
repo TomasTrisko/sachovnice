@@ -1,0 +1,26 @@
+<!doctype html>
+<html lang="cs">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Interaktivní šachovnice 10x10</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <main class="container">
+    <h1>Interaktivní šachovnice 10x10</h1>
+
+    <div class="controls">
+      <label for="colorPicker">Barva při kliknutí:</label>
+      <input type="color" id="colorPicker" value="#ff4d4d">
+      <button id="resetBtn">Reset Šachovnice</button>
+    </div>
+
+    <div id="board" class="board" aria-label="Šachovnice 10 na 10"></div>
+
+    <p class="note">Klikni nebo přetáhní držením myši aby políčko změnilo barvu.</p>
+  </main>
+
+  <script src="script.js"></script>
+</body>
+</html>
